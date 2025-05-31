@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Lab Results</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #ffffff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      padding: 40px 20px;
+      min-height: 100vh;
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      color: #222;
+      margin-bottom: 40px;
+      text-align: center;
+    }
+
+    .link-list {
+      width: 100%;
+      max-width: 600px;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      align-items: center;
+    }
+
+    .download-link {
+      font-size: 1.5rem;
+      text-align: center;
+      text-decoration: none;
+      background-color: #4CAF50;
+      color: white;
+      padding: 20px 30px;
+      border-radius: 8px;
+      transition: background-color 0.3s ease;
+      width: 100%;
+      box-sizing: border-box;
+      max-width: 400px;
+    }
+
+    .download-link:hover {
+      background-color: #45a049;
+    }
+
+    @media (max-width: 500px) {
+      h1 {
+        font-size: 2rem;
+      }
+
+      .download-link {
+        font-size: 1.2rem;
+        padding: 15px 20px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <h1>Lab Results</h1>
+  <div class="link-list">
+    <a class="download-link" href="purple-punch-coa.pdf" download>Purple Punch – COA</a>
+    <a class="download-link" href="PDFS/Biscotti-ACHT.pdf" download>Biscotti – ACHT</a>
+  </div>
+</body>
+</html>
